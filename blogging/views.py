@@ -6,4 +6,4 @@ from http import HTTPStatus
 def indexx(request):
     return HttpResponse("index of blogging  urls")
 def ind(request):
-    return HttpResponse("ind of blogging  urls")
+    return HttpResponse("ind of blogging  urls<a href='https://docs.djangoproject.com/en/3.2/intro/tutorial01/'>django create app</a>")
