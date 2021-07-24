@@ -19,5 +19,6 @@ from blogging import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/',include('home.urls') ),
-    path('', views.ind, name='ind')
+    path('', views.ind, name='ind'),
+    path('ind2', views.ind2, name='ind2')
 ]
