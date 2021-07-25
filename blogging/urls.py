@@ -21,4 +21,5 @@ urlpatterns = [
     path('home/',include('home.urls') ),
     path('', views.ind, name='ind'),
     path('ind2', views.ind2, name='ind2')
+    
 ]
